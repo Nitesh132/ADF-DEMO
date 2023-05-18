@@ -1,0 +1,19 @@
+{
+	"name": "INPUTFILES",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Datascience Questions in EY.txt",
+				"folderPath": "INPUTFOLDER",
+				"container": "nitesh"
+			}
+		}
+	}
+}
