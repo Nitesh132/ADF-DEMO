@@ -1,0 +1,6 @@
+{
+	"name": "selfHostedTrigger",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
