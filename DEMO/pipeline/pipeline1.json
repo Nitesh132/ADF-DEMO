@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Move and Transform",
+				"name": "Move and Transform DATA",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
