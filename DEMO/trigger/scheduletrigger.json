@@ -1,0 +1,27 @@
+{
+	"name": "scheduletrigger",
+	"properties": {
+		"description": "This is Schedule Trigger Testing",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-05-19T03:47:00",
+				"endTime": "2023-05-20T03:47:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						0
+					],
+					"hours": [
+						9
+					]
+				}
+			}
+		}
+	}
+}
