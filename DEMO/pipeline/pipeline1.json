@@ -47,6 +47,11 @@
 				]
 			}
 		],
+		"parameters": {
+			"Timing": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }

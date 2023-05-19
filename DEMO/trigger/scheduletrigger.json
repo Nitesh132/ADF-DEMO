@@ -3,7 +3,7 @@
 	"properties": {
 		"description": "This is Schedule Trigger Testing",
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
