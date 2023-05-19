@@ -1,0 +1,9 @@
+{
+	"name": "DETRAININGNITESH",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1ae8187a-1d6e-4150-9ae2-f363988bcd9c",
+		"tenantId": "adb53b4f-b05f-4dcb-a2e1-9111380568c3"
+	}
+}
