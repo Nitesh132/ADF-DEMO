@@ -1,0 +1,21 @@
+{
+	"name": "Tumbling Window",
+	"properties": {
+		"description": "THIS IS FOR TUMBLING TRIGGER",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"type": "TumblingWindowTrigger",
+		"typeProperties": {
+			"frequency": "Hour",
+			"interval": 1,
+			"startTime": "2023-05-19T04:03:00Z",
+			"delay": "00:01:00",
+			"maxConcurrency": 20,
+			"retryPolicy": {
+				"count": 2,
+				"intervalInSeconds": 60
+			},
+			"dependsOn": []
+		}
+	}
+}
