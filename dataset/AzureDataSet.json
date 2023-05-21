@@ -1,0 +1,30 @@
+{
+	"name": "AzureDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"UserName": "detestnitesh",
+				"Password": "P@ssword123"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TEST",
+				"type": "varchar"
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TEST"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

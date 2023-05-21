@@ -1,0 +1,9 @@
+{
+	"name": "DEDFTESTING",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b40bde91-5826-4dac-abbc-a74d64c95a1d",
+		"tenantId": "adb53b4f-b05f-4dcb-a2e1-9111380568c3"
+	}
+}
