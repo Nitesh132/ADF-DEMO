@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "EY_Nitesh Srivastava (1).pptx",
 				"folderPath": "output",
 				"container": "nitesh"
 			}

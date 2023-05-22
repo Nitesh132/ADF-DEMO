@@ -126,7 +126,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "copydata",
+						"referenceName": "outputdata",
 						"type": "DatasetReference"
 					}
 				]
