@@ -1,0 +1,26 @@
+{
+	"name": "BlobActivity",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobForActivity",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"FolderName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": {
+					"value": "@dataset().FolderName",
+					"type": "Expression"
+				},
+				"container": "nitesh"
+			}
+		}
+	}
+}

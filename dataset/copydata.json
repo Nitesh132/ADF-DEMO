@@ -1,0 +1,19 @@
+{
+	"name": "copydata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobForActivity",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "PAN CARD.jpg",
+				"folderPath": "input",
+				"container": "nitesh"
+			}
+		}
+	}
+}
