@@ -120,13 +120,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "copydata",
+						"referenceName": "outputdata",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "outputdata",
+						"referenceName": "copydata",
 						"type": "DatasetReference"
 					}
 				]
