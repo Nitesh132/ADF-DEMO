@@ -17,6 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
+						"sqlReaderQuery": "select DatafactoryName from fetchadfdata",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
@@ -48,9 +49,14 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "SqlServerSource",
-						"queryTimeout": "02:00:00",
-						"partitionOption": "None"
+						"type": "BinarySource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true
+						},
+						"formatSettings": {
+							"type": "BinaryReadSettings"
+						}
 					},
 					"sink": {
 						"type": "BinarySink",
@@ -62,14 +68,20 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DataSetForlookup",
+						"referenceName": "InputData",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "DestinationData",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"FolderName": {
+								"value": "@activity('Lookup1').output.strstring()",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
