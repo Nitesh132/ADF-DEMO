@@ -1,0 +1,19 @@
+{
+	"name": "DestinationData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.txt",
+				"folderPath": "output",
+				"container": "nitesh"
+			}
+		}
+	}
+}
