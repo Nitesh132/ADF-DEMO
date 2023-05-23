@@ -1,0 +1,29 @@
+{
+	"name": "DataSetForlookup",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedserviceforsqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "DatafactoryName",
+				"type": "varchar"
+			},
+			{
+				"name": "PipeLineName",
+				"type": "varchar"
+			},
+			{
+				"name": "PipleLineRunID",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "fetchadfdata"
+		}
+	}
+}
